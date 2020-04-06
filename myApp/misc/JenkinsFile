@@ -10,7 +10,7 @@ node {
 
    stage('Results') {
      junit 'myApp/target/surefire-reports/**/*.xml'
-     archive 'myApp/target/*.jar'
+     archiveArtifacts 'myApp/target/*.jar'
    }
 
 }
