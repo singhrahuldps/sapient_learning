@@ -5,13 +5,12 @@ node {
    }
 
    stage('Build') {
-    bat 'cd myApp'
-    bat 'mvn -Dmaven.test.failure.ignore clean install'
+    bat 'cd myApp && mvn -Dmaven.test.failure.ignore clean install'
    }
 
    stage('Results') {
-     junit 'target/surefire-reports/**/*.xml'
-     archive 'target/*.jar'
+     junit 'myApp/target/surefire-reports/**/*.xml'
+     archive 'myApp/target/*.jar'
    }
 
 }
