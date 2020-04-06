@@ -1,6 +1,6 @@
 node {
    
-   triggers { cron('H 10 * * *') }
+   pipelineTriggers { cron('H 10 * * *') }
 
    stage('Preparation') {
      git branch: 'week1', url: 'https://github.com/singhrahuldps/sapient_learning.git'
