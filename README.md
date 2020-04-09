@@ -17,11 +17,11 @@ git add .
 git commit -m "Initial Commit"
 ```
 
-3. Push the branch to Github
+4. Push the branch to Github
 ```bash
 git push -u origin week1
 ```
 
-4. Added the JenkinsFile to location myApp/misc/JenkinsFile
+5. Added the JenkinsFile to location myApp/misc/JenkinsFile
 
-5. Add the Pipeline to Jenkins using GIT SCM
+6. Add the Pipeline to Jenkins using GIT SCM
