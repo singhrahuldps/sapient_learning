@@ -1,5 +1,1 @@
-This repository contains the week wise tasks for the Sapient Training Program.
-
-# Check the following branches for the mentioned tasks
-
-week1 - Maven project built using Jenkins
+# Look at replication.md for the steps to create a replication set and look at the secondary databse data
