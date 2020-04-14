@@ -1,1 +1,1 @@
-# Look at replication.md for the steps to create a replication set and look at the secondary databse data
+# Look at replication.md for the steps to create a replication set and perform a read query on the secondary database
