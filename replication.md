@@ -22,9 +22,10 @@ mongod --port 27018 --replSet rs0 --dbpath E:\Tools\MongoDB\Server\4.2\data\rset
 mongo --port 27017
 ```
 
-5. Initiate the replica set
+5. Initiate the replica set and add the secondary server
 ```
 rs.initiate()
+rs.add( { host: "localhost:27018", priority: 0, votes: 0 } )
 ```
 
 6. Check the status of your replica sets and verify everything is working fine
