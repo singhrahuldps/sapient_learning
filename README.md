@@ -1,7 +1,10 @@
-This repository contains the week wise tasks for the Sapient Training Program.
+# Prime Number Encryption
 
-# Check the following branches for the mentioned tasks
+This branch consists the code for the class Encryption which takes input a string of alphabets and encodes it according to the algorithm specified in class SimpleEncrypt.
 
-week1 - Maven project built using Jenkins
+Below is the sample input output for the Encryption class:
 
-week2 - Deployed a MongoDB Replica Set
+```bash
+>> abcdefghijkl mnopqrstuvwxyz1
+2 3 5 7 B D 11 13 17 1D 1F 25   29 2B 2F 35 3B 3D 43 47 49 4F 53 59 61 65 _ 
+```
