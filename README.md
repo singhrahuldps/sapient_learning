@@ -1,8 +1,8 @@
 # Prime Number Encryption
 
-This branch consists the code for the class Encryption which takes input a string of alphabets and encodes it according to the algorithm specified in class SimpleEncrypt.
+This branch consists the code for the class **Encryption** which takes input a string of alphabets and encodes it according to the algorithm specified in class **SimpleEncrypt**.
 
-Below is the sample input output for the Encryption class:
+Below is the sample input-output for the **Encryption** class:
 
 ```bash
 >> abcdefghijkl mnopqrstuvwxyz1
