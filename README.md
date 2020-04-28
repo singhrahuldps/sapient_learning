@@ -7,3 +7,5 @@ This repository contains the week wise tasks for the Sapient Training Program.
 **week2 :**  Deployed a MongoDB Replica Set
 
 **week3 :**  Basic Java - Prime Number Encryption
+
+**week4 :**  Translator Dictionary
