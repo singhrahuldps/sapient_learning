@@ -1,9 +1,5 @@
-This repository contains the week wise tasks for the Sapient Training Program.
+# Translator Dictionary
 
-# Check the following branches for the mentioned tasks
+A special dictionary which takes in a word and gives back it's translations in different languages. Users are provided the ability to add their own words and corresponding translations. Default entry for "Good Morning" has already been made.
 
-**week1 :**  Maven project built using Jenkins
-
-**week2 :**  Deployed a MongoDB Replica Set
-
-**week3 :**  Basic Java - Prime Number Encryption
+The class **Translator** implements the dictionary and the class **TranslatorRunner** provides the usage interface for users.
