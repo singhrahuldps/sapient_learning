@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+@media (min-width:300px) {
+    h1{
+        font-family: Arial;
+        font-size: 36pt;
+        color: blue;
+    }
+}
+
+@media (max-width:300px) {
+    h1{
+        font-family: Helvetica;
+        font-size: 24pt;
+        color: red;
+    }
+}
+
+@media (max-width:100px) {
+    h1{
+        font-family: 'Courier New';
+        font-size: 18pt;
+        color: purple;
+    }
+}
+
