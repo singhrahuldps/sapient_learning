@@ -11,3 +11,5 @@ This repository contains the week wise tasks for the Sapient Training Program.
 **week4 :**  Translator Dictionary
 
 **week5 :**  Timed QnA
+
+**week6 :**  Responsive Web Design
