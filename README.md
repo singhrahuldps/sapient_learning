@@ -13,3 +13,5 @@ This repository contains the week wise tasks for the Sapient Training Program.
 **week5 :**  Timed QnA
 
 **week6 :**  Responsive Web Design
+
+**week7 :**  Spring Context
