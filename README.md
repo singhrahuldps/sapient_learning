@@ -1,15 +1,5 @@
-This repository contains the week wise tasks for the Sapient Training Program.
+# Spring Context
 
-# Check the following branches for the mentioned tasks
+Created a Mobile class which has Camera, Screen and Speaker dependencies injected to it using the spring framework. The project was built using maven.
 
-**week1 :**  Maven project built using Jenkins
-
-**week2 :**  Deployed a MongoDB Replica Set
-
-**week3 :**  Basic Java - Prime Number Encryption
-
-**week4 :**  Translator Dictionary
-
-**week5 :**  Timed QnA
-
-**week6 :**  Responsive Web Design
+The App class gets the Mobile class injected into it along with the mobile dependencies autowired to it.

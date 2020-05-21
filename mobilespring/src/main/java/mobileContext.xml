@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="mobile" class="com.invictalabs.mobilespring.Mobile" autowire="byType"></bean>
+	
+	<bean id="camera" class="com.invictalabs.mobilespring.Camera">
+		<property name="megaPixels" value="12"></property>
+	</bean>
+	
+	<bean id="screen" class="com.invictalabs.mobilespring.Screen">
+		<property name="len" value="700"></property>
+		<property name="bre" value="450"></property>
+	</bean>
+	
+	<bean id="speaker" class="com.invictalabs.mobilespring.Speaker">
+		<property name="speakerType" value="Stereo"></property>
+		<property name="volumeLevel" value="20"></property>
+	</bean>
+	
+</beans>
