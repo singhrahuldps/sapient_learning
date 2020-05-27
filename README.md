@@ -15,3 +15,5 @@ This repository contains the week wise tasks for the Sapient Training Program.
 **week6 :**  Responsive Web Design
 
 **week7 :**  Spring Context
+
+**week8 :**  Project Structure with Junit & Mockito Tests
