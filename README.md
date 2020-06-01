@@ -1,4 +1,4 @@
-# Dispatcher Servlet
+# Dispatcher Servlet App
 
 Created a Dispatcher Servlet class for a shop's website. The follwing are the mappings for the servlet class:
 
